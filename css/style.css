@@ -105,7 +105,7 @@ img {
 
 .section-title {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 .section-title h2 span{
     color: #00B0DC;
@@ -792,7 +792,7 @@ canvas{
 }
 
 .skillbar {
-    margin-bottom: 24px;
+    margin-bottom: 25px;
     position: relative;
     width: 100%;
     display: block
@@ -847,14 +847,15 @@ canvas{
     left: 0px;
     bottom: 0px;
     right: 0px;
-    background: #00B0DC;
+    background-image:url("../images/port/7.png");
+    background-size: cover;
     opacity: 0;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
-    cursor: crosshair;
+    cursor: pointer;
 }
 
 .overlay .overlay-inner {
@@ -865,7 +866,7 @@ canvas{
 }
 
 .overlay .overlay-inner h4 {
-    color: #ffffff !important;
+    color: #000000 !important;
     margin-bottom: 0 !important;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -879,11 +880,10 @@ canvas{
     transform: translateY(-30px);
     text-transform: uppercase;
     font-size: 25px;
-    letter-spacing: 1px;
+    font-weight: 1000;
 }
-
 .overlay .overlay-inner p {
-    color: #fff;
+    color: #000000;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;

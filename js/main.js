@@ -112,7 +112,7 @@ $(document).ready(function () {
 
     $('.counter').counterUp({
         delay: 50,
-        time: 8000
+        time: 800
     });
 
 
